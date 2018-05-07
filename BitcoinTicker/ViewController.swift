@@ -85,17 +85,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         currencyPicker.dataSource = currency as? UIPickerViewDataSource
         
         if let bitcoinResult = json["last"].double {
-            var results = ("\(currencySelected)") + "\(bitcoinResult)"
-//            bitcoinPriceLabel.text = ("\(currencySelected)" + String(bitcoinResult))
-//            let formatter = NumberFormatter()
-//            formatter.numberStyle = .currency
-//            formatter.string(from: currencyPicker.dataSource as! NSNumber)
-//            formatter.locale = Locale(identifier: "\(currencySelected)")
-//            formatter.string(from: currencyPicker.dataSource as! NSNumber)
-            //test
-            
-            bitcoinPriceLabel.text = results
-
+            bitcoinPriceLabel.text = ("\(currencySelected)") + "\(bitcoinResult)"
             
         } else {
             bitcoinPriceLabel.text = "Price Unavailable"
