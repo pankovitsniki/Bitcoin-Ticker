@@ -92,6 +92,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
 //            formatter.string(from: currencyPicker.dataSource as! NSNumber)
 //            formatter.locale = Locale(identifier: "\(currencySelected)")
 //            formatter.string(from: currencyPicker.dataSource as! NSNumber)
+            //test
             
             bitcoinPriceLabel.text = results
 
