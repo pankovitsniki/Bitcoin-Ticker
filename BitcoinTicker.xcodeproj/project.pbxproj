@@ -144,7 +144,6 @@
 				63A618221C53C381007AF001 /* Frameworks */,
 				63A618231C53C381007AF001 /* Resources */,
 				EFA4DBC383B74A4D8606C4F6 /* [CP] Embed Pods Frameworks */,
-				3525944F9DCE69B8B698EA5F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,21 +240,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3525944F9DCE69B8B698EA5F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinTicker/Pods-BitcoinTicker-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		75E02148FDCA130CB48A5362 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
