@@ -15,8 +15,40 @@
 		63A618331C53C381007AF001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A618311C53C381007AF001 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		205BB7E320A10BC900CDA15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205BB7DC20A10BC800CDA15D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1147B4C9A050BCD2D6773D8ED639A56E;
+			remoteInfo = Alamofire;
+		};
+		205BB7E520A10BC900CDA15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205BB7DC20A10BC800CDA15D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E24C186C66A28F521C51EB9AB36D4417;
+			remoteInfo = "Pods-BitcoinTicker";
+		};
+		205BB7E720A10BC900CDA15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205BB7DC20A10BC800CDA15D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F1F11BECD917F32C228713516581E62;
+			remoteInfo = SVProgressHUD;
+		};
+		205BB7E920A10BC900CDA15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205BB7DC20A10BC800CDA15D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F645ACDF6F174501CC327D1EB44F3A5C;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		194F24C0EF2E7F92BC008120 /* Pods_BitcoinTicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinTicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		205BB7DC20A10BC800CDA15D /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		63A618251C53C381007AF001 /* BitcoinTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A618281C53C381007AF001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A6182A1C53C381007AF001 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +72,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		205BB7DD20A10BC800CDA15D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				205BB7E420A10BC900CDA15D /* Alamofire.framework */,
+				205BB7E620A10BC900CDA15D /* Pods_BitcoinTicker.framework */,
+				205BB7E820A10BC900CDA15D /* SVProgressHUD.framework */,
+				205BB7EA20A10BC900CDA15D /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		21904EDCB1CE2B54680B8DC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +125,7 @@
 		9E33DE8F28E4A07A7FEA8945 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				205BB7DC20A10BC800CDA15D /* Pods.xcodeproj */,
 				BBEB207505C3FF425B20A196 /* Pods-BitcoinTicker.debug.xcconfig */,
 				C4AF468D31C3B4C558DD0192 /* Pods-BitcoinTicker.release.xcconfig */,
 			);
@@ -139,12 +183,49 @@
 			mainGroup = 63A6181C1C53C381007AF001;
 			productRefGroup = 63A618261C53C381007AF001 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 205BB7DD20A10BC800CDA15D /* Products */;
+					ProjectRef = 205BB7DC20A10BC800CDA15D /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				63A618241C53C381007AF001 /* BitcoinTicker */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		205BB7E420A10BC900CDA15D /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 205BB7E320A10BC900CDA15D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		205BB7E620A10BC900CDA15D /* Pods_BitcoinTicker.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_BitcoinTicker.framework;
+			remoteRef = 205BB7E520A10BC900CDA15D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		205BB7E820A10BC900CDA15D /* SVProgressHUD.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SVProgressHUD.framework;
+			remoteRef = 205BB7E720A10BC900CDA15D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		205BB7EA20A10BC900CDA15D /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 205BB7E920A10BC900CDA15D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		63A618231C53C381007AF001 /* Resources */ = {
